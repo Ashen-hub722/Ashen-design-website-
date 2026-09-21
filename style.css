@@ -1,14 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    text-align: center;
     background: #fff7ed;
+    color: #222;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #111827;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 24px;
+    background: #f97316;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.services {
     padding: 50px 20px;
+    text-align: center;
 }
 
-h1 {
-    font-size: 40px;
+.services h2,
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
-p {
-    font-size: 20px;
+.service-box {
+    max-width: 500px;
+    margin: 18px auto;
+    padding: 22px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.service-box h3 {
+    margin-top: 0;
+}
+
+.service-box p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.contact {
+    text-align: center;
+    padding: 55px 20px;
+    background: #111827;
+    color: white;
+}
+
+.contact p {
+    margin-bottom: 25px;
 }
